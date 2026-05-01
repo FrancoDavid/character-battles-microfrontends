@@ -1,4 +1,4 @@
-const API_URL = "https://fakestoreapi.com";
+const API_URL = "https://dattebayo-api.onrender.com/";
 
 export default async (urlParams) => {
   try {
