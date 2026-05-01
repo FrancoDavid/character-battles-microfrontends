@@ -6,7 +6,6 @@ import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
 
 import { getProducts } from "./services/services";
 import ProductCard from "./components/ProductCard";
-import { Product } from "./interfaces/Product";
 
 function DbzApp() {
   // const handleAttackClick = () => {

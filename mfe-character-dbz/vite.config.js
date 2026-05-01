@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: "characterDBZ",
+      name: "dbz",
       filename: "remoteEntry.js",
       exposes: {
-        "./CharacterDbzApp": "./src/DbzApp.jsx",
+        "./dbzApp": "./src/DbzApp.jsx",
       },
       shared: ["react", "react-dom"],
     }),
